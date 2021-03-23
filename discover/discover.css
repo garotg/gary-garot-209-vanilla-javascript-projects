@@ -1,0 +1,80 @@
+html {
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+
+#time {
+    font-size: 7.8rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 3.5rem;
+    font-size: 3em;
+    
+}
+h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+    font-size: 1.8em;
+}
+header{
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    top: 0;
+    left: 0;
+    width: 250px;
+    position: absolute;
+    padding-top: 0.3em;
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-bottom: 0.5rem;
+   
+   font-size: 1em;
+   font-weight: bold;
+  
+}
+  
+
+@media(max-width: 700px) {
+    #time {
+        font-size: 5.7em;
+    }
+    header{
+        font-size: 2.3em;
+        top: 0;
+        left: 0;
+        width: 190px;
+        
+    }
+    h1 {
+        font-size: 2.3em;
+        
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    footer{
+        font-size: 0.9em;
+    }
+}
